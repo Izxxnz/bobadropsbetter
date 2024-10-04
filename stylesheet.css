@@ -1,0 +1,57 @@
+table, th, td{
+    border:1px solid black;
+    font-family:arial;
+    font-size:13.5px;
+}
+h1, p, a, h4, ol, h2{
+    font-family:arial;
+}
+p, a, ol{
+    font-size:13.5px;
+}
+h1{
+    color:white;
+    text-align:center;
+}
+
+html{
+    background-image: linear-gradient(to bottom right, red, yellow);
+    color:white
+}
+
+.button-container {
+    text-align: center; /* Centers the inline-block elements */
+    margin-bottom:50px;
+}
+
+.link{
+    background-color:black;
+    display:inline-block;
+    border:2px solid black;
+    height:15px; width:200px;
+    margin:auto;
+    padding:10px;
+    text-align:center;
+    transition:.5s;
+}
+
+.linktext {
+    color: white; /* Default text color */
+    transition: color 0.5s; /* Smooth transition for text color */
+}
+
+/* Change color for both button and text on hover */
+.link:hover {
+        background-color: white; /* Button background color on hover */
+    transform:translateY(-5px);
+}
+
+.link:hover .linktext {
+    color: black; /* Text color on hover */
+}
+
+
+a{
+    text-decoration:none;
+}
+
